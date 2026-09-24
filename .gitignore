@@ -1,0 +1,18 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Your real portfolio data: never commit it
+data/
+transactions.csv
+!examples/transactions.csv
+
+# Generated output and caches
+.cache/
+reports/
+history/
+examples/reports/
+examples/history/

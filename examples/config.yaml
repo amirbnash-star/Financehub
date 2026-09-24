@@ -1,0 +1,35 @@
+# Portfolio settings. Percentages are written as percent (5 = 5%).
+base_currency: GBP            # GBP or EUR
+risk_profile: balanced        # cautious | balanced | growth | aggressive
+investment_horizon_years: 15
+risk_free_rate_pct: 4.0       # annual, used for the Sharpe ratio
+
+rebalancing:
+  absolute_drift_pp: 5        # rebalance if a weight is 5 pp away from target...
+  relative_drift_pct: 25      # ...or 25% away relative to its target (Swedroe 5/25)
+  allow_sells: true           # false = only ever suggest buying with cash
+  fractional_shares: false    # true if your broker allows fractional shares
+
+max_position_pct: 45          # no single holding above this weight
+min_trade_size: 200           # ignore trades smaller than this (base currency)
+
+cash:
+  max_pct: 5                  # suggest deploying cash above this weight
+
+costs:                        # used to estimate the cost of each suggested trade
+  fixed_fee: 0.0              # per trade, base currency
+  commission_bps: 0           # 1 bp = 0.01%
+  spread_bps: 10              # estimated bid/ask spread + FX cost
+
+correlation:
+  threshold: 0.90             # flag pairs of holdings more correlated than this
+  lookback_days: 365
+
+underperformance:
+  lookback_days: 365
+  threshold_pp: 15            # flag if a holding trails its asset-class peers by this much
+
+prices:
+  offline: true               # the example uses the bundled synthetic cache only
+  cache_dir: prices_cache     # relative to this folder
+  max_age_hours: 12           # refetch cached prices older than this

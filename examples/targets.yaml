@@ -1,0 +1,15 @@
+# Target allocation. Holding weights (including CASH) must sum to 100.
+# The asset_classes block must match the sum of holdings per class.
+asset_classes:
+  equity: 63
+  bonds: 30
+  gold: 5
+  cash: 2
+
+holdings:
+  VWRL.L: {weight: 45, asset_class: equity, region: global, currency: GBP, name: Vanguard FTSE All-World}
+  EMIM.L: {weight: 10, asset_class: equity, region: emerging, currency: GBp, name: iShares Core MSCI EM IMI}
+  VUSA.L: {weight: 8,  asset_class: equity, region: us, currency: GBP, name: Vanguard S&P 500}
+  IGLT.L: {weight: 30, asset_class: bonds, region: uk, currency: GBp, name: iShares Core UK Gilts}
+  SGLN.L: {weight: 5,  asset_class: gold, region: global, currency: GBp, name: iShares Physical Gold}
+  CASH:   {weight: 2,  asset_class: cash}
