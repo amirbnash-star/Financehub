@@ -103,8 +103,9 @@ def evaluate(val: Valuation, an: Analytics, targets: Targets, cfg: Config) -> li
         if r["weight"] <= cfg.max_position:
             continue
         limit = min(cfg.max_position, r["target"]) if r["target"] > 0 else cfg.max_position
+        one_share = r["price_base"] / total  # whole-share rounding can leave a hair above the limit
         covered = rebalance_plan and any(
-            tr.ticker == t and tr.side == "sell" and rebalance_plan.after.get(t, 1) <= cfg.max_position
+            tr.ticker == t and tr.side == "sell" and rebalance_plan.after.get(t, 1) <= cfg.max_position + one_share
             for tr in rebalance_plan.trades)
         why = (f"Max position rule: {t} is {r['weight']:.1%} of the portfolio, above the "
                f"{cfg.max_position:.0%} limit. HHI {an.hhi:.3f} (≈{an.effective_n or 0:.1f} equal-sized positions).")
