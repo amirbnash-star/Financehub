@@ -1,0 +1,108 @@
+date,ticker,action,quantity,price,currency,fees,note
+2023-01-03,,deposit,25000,1.0,GBP,0.0,initial lump sum
+2023-01-03,VWRL.L,buy,115,95.0,GBP,0.0,
+2023-01-03,EMIM.L,buy,96,2600.0,GBp,0.0,
+2023-01-03,VUSA.L,buy,29,68.0,GBP,0.0,
+2023-01-03,IGLT.L,buy,694,1080.0,GBp,0.0,
+2023-01-03,SGLN.L,buy,43,2900.0,GBp,0.0,
+2023-02-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-02-01,VWRL.L,buy,4,96.42,GBP,0.0,
+2023-03-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-03-01,VWRL.L,buy,3,102.3,GBP,0.0,
+2023-04-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-04-03,VWRL.L,buy,3,106.95,GBP,0.0,
+2023-05-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-05-01,VWRL.L,buy,3,101.27,GBP,0.0,
+2023-06-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-06-01,VWRL.L,buy,3,100.29,GBP,0.0,
+2023-06-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2023-07-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-07-03,VWRL.L,buy,3,101.82,GBP,0.0,
+2023-08-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-08-01,VWRL.L,buy,3,107.3,GBP,0.0,
+2023-09-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-09-01,VWRL.L,buy,3,105.94,GBP,0.0,
+2023-09-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2023-10-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-10-02,VWRL.L,buy,4,97.42,GBP,0.0,
+2023-11-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-11-01,VWRL.L,buy,4,94.35,GBP,0.0,
+2023-12-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2023-12-01,VWRL.L,buy,4,92.04,GBP,0.0,
+2023-12-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2024-01-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-01-01,VWRL.L,buy,4,97.3,GBP,0.0,
+2024-02-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-02-01,VWRL.L,buy,4,95.57,GBP,0.0,
+2024-03-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-03-01,VWRL.L,buy,4,98.08,GBP,0.0,
+2024-03-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2024-04-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-04-01,VWRL.L,buy,3,101.95,GBP,0.0,
+2024-05-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-05-01,VWRL.L,buy,4,98.68,GBP,0.0,
+2024-06-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-06-03,VWRL.L,buy,4,93.2,GBP,0.0,
+2024-06-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2024-07-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-07-01,VWRL.L,buy,4,88.59,GBP,0.0,
+2024-08-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-08-01,VWRL.L,buy,4,90.61,GBP,0.0,
+2024-09-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-09-02,VWRL.L,buy,4,94.85,GBP,0.0,
+2024-09-30,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2024-10-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-10-01,VWRL.L,buy,4,96.59,GBP,0.0,
+2024-11-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-11-01,VWRL.L,buy,3,103.29,GBP,0.0,
+2024-12-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2024-12-02,VWRL.L,buy,4,99.72,GBP,0.0,
+2024-12-30,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2025-01-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-01-01,VWRL.L,buy,3,100.31,GBP,0.0,
+2025-02-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-02-03,VWRL.L,buy,4,99.66,GBP,0.0,
+2025-03-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-03-03,VWRL.L,buy,3,100.16,GBP,0.0,
+2025-03-14,SGLN.L,sell,5,3830.35,GBp,0.0,took profit
+2025-03-28,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2025-04-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-04-01,VWRL.L,buy,4,97.75,GBP,0.0,
+2025-05-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-05-01,VWRL.L,buy,3,102.45,GBP,0.0,
+2025-06-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-06-02,VWRL.L,buy,3,104.3,GBP,0.0,
+2025-06-30,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2025-07-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-07-01,VWRL.L,buy,3,102.5,GBP,0.0,
+2025-08-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-08-01,VWRL.L,buy,4,96.61,GBP,0.0,
+2025-09-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-09-01,VWRL.L,buy,4,98.56,GBP,0.0,
+2025-09-29,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2025-10-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-10-01,VWRL.L,buy,4,98.76,GBP,0.0,
+2025-11-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-11-03,VWRL.L,buy,3,101.38,GBP,0.0,
+2025-12-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2025-12-01,VWRL.L,buy,3,103.6,GBP,0.0,
+2025-12-29,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2026-01-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-01-01,VWRL.L,buy,3,100.64,GBP,0.0,
+2026-02-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-02-02,VWRL.L,buy,3,108.92,GBP,0.0,
+2026-03-02,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-03-02,VWRL.L,buy,3,106.3,GBP,0.0,
+2026-03-30,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2026-04-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-04-01,VWRL.L,buy,3,108.57,GBP,0.0,
+2026-05-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-05-01,VWRL.L,buy,3,113.27,GBP,0.0,
+2026-06-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-06-01,VWRL.L,buy,3,111.51,GBP,0.0,
+2026-06-29,VWRL.L,dividend,1,45.0,GBP,0.0,quarterly dividend
+2026-07-01,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-07-01,VWRL.L,buy,3,123.48,GBP,0.0,
+2026-08-03,,deposit,400,1.0,GBP,0.0,monthly saving
+2026-08-03,VWRL.L,buy,3,122.83,GBP,0.0,
+2026-09-01,,deposit,3000,1.0,GBP,0.0,"bonus, not yet invested"
