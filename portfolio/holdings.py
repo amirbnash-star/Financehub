@@ -92,3 +92,27 @@ def rebuild_holdings(tx: pd.DataFrame, as_of: pd.Timestamp | None = None) -> Hol
         elif row["action"] == "dividend" and ccy == pos.currency:
             pos.dividends += row["amount"] - row["fees"]
     return h
+
+
+def add_implicit_deposits(tx: pd.DataFrame) -> tuple[pd.DataFrame, int]:
+    """Insert a deposit wherever a transaction would push a cash balance below zero.
+
+    Many people only record their buys, not the cash they paid in. Without a
+    deposit, cash goes negative and return calculations break. The inserted
+    rows are marked note="implicit deposit" and the number added is returned
+    so the report can mention it.
+    """
+    rows, balance, added = [], {}, 0
+    for row in tx.to_dict("records"):
+        ccy = row["currency"]
+        after = balance.get(ccy, 0.0) + cash_delta(row)
+        if after < -0.005:
+            shortfall = -after
+            rows.append({
+                "date": row["date"], "ticker": "", "action": "deposit", "quantity": shortfall,
+                "price": 1.0, "currency": ccy, "fees": 0.0, "note": "implicit deposit", "amount": shortfall,
+            })
+            after, added = 0.0, added + 1
+        balance[ccy] = after
+        rows.append(row)
+    return (pd.DataFrame(rows, columns=tx.columns) if rows else tx), added
