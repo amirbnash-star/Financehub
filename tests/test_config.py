@@ -38,7 +38,7 @@ def test_asset_classes_must_match_holdings(tmp_path):
         "asset_classes: {equity: 50, bonds: 50}\n"
         "holdings:\n  A: {weight: 60, asset_class: equity}\n  B: {weight: 40, asset_class: bonds}\n",
     )
-    with pytest.raises(ConfigError, match="equity"):
+    with pytest.raises(ConfigError, match="asset class"):
         load_targets(p)
 
 

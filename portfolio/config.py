@@ -166,7 +166,7 @@ def validate_targets(targets: Targets) -> None:
         if abs(class_total - 1.0) > TOLERANCE:
             raise ConfigError(f"asset_classes sum to {class_total:.2%}, they must sum to 100%")
         implied = class_weights(targets)
-        for cls in set(implied) | set(targets.asset_classes):
+        for cls in sorted(set(implied) | set(targets.asset_classes)):
             a, b = implied.get(cls, 0.0), targets.asset_classes.get(cls, 0.0)
             if abs(a - b) > TOLERANCE:
                 raise ConfigError(
